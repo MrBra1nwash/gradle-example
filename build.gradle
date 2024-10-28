@@ -1,0 +1,9 @@
+plugins {
+    id 'base'
+}
+
+task npmBuild(type: Exec) {
+    commandLine 'npm', 'run', 'build'
+}
+
+build.dependsOn npmBuild

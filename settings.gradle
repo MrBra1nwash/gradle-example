@@ -1,0 +1,15 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id 'com.gradle.develocity' version '3.17.6'
+}
+
+develocity {
+    buildScan {
+        tag 'frontend-engineer'
+    }
+}
